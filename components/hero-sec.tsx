@@ -127,7 +127,8 @@ export default function HeroSection() {
                           <a
                             key={item.name}
                             href={item.href}
-                            className="-mx--3 block rounded-lg px-3 py-2 text-base font-semibold  leading-7 relative h-11 w-28 overflow-hidden rounded-lg border bg-neutral-900 p-3 text-left font-heading2 text-l font-bold text-gray-400  underline-offset-2 duration-500 hover:border-rose-300 hover:text-rose-300 hover:underline"
+                            className="-mx--3 block     leading-7 w-28  rounded-2xl  text-l  underline-offset-2 
+                            font-heading2 mr-1 group relative bg-neutral-800 h-[3rem] border text-center p-3 text-gray-50 text-lg font-bold  overflow-hidden hover:border-rose-300 duration-500 hover:underline hover:underline-offset-4 hover:decoration-2 hover:text-rose-300 before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg after:absolute after:z-10 after:w-20 after:h-20 after:content[''] after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg"
                           >
                             {item.name}
                           </a>
@@ -135,7 +136,7 @@ export default function HeroSection() {
                       </div>
                       <div className="py-6">
                       <button
-                        className="relative h-18 w-54 overflow-hidden rounded-lg border bg-gradient-to-r from-[#FF512F] to-[#DD2476] p-4 text-center font-heading2 text-xl font-bold text-white-400 underline-offset-2 duration-500 hover:border-rose-300 hover:text-rose-300 hover:underline"
+                        className="font-heading2 mr-1 group relative bg-neutral-800 h-[3rem] w-42 border text-center p-3 text-gray-50 text-lg font-bold rounded-xl overflow-hidden hover:border-rose-300 duration-500 hover:underline hover:underline-offset-4 hover:decoration-2 hover:text-rose-300 before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg after:absolute after:z-10 after:w-20 after:h-20 after:content[''] after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg"
                         onClick={handleFormToggle}
                       >
                         Request a Callback
